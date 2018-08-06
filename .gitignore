@@ -1,0 +1,10 @@
+# Ignore dir
+node_modules/
+_tmp/
+dist/
+
+# Ignore file
+yarn.lock
+
+# IntelliJ project files
+.idea/

@@ -1,0 +1,13 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* TEAM */
+
+Name: start-template-extra
+Site: jordirue.com
+Twitter: @jordirue
+Location: Barcelona, Catalonia.
+
+/* SITE */
+
+Standards: HTML5, CSS3, JS

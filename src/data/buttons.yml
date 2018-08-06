@@ -1,0 +1,11 @@
+#
+# Text dels botons
+#
+
+txt__boto-a:
+  -
+    boto-text: Boto a
+
+txt__boto-a_desactivat:
+  -
+    boto-text: Boto a desactivat

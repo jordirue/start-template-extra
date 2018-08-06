@@ -1,0 +1,40 @@
+<style>
+    .sg__h1 {
+        color: #000;
+    }
+    .sg__h2 {
+        margin-bottom: 30px;
+        color: #333;
+        border-bottom: solid 10px #666;
+    }
+    .sg__h3 {
+        color: #666;
+        border-bottom: solid 1px #999;
+    }
+    .sg__p {
+        margin-bottom: 50px;
+        color: #333;
+    }
+</style>
+
+{{#each site.txt__site}}
+<h1 class="sg__h1">{{ site__name }}</h1>
+<h2 class="sg__h2">Style Guide</h2>
+{{/each}}
+<p class="sg__p">Una guia d'estil inclou tots els elements necessaris per a construir una imatge sòlida del projecte.<br>
+    És una col·lecció d'elements predissenyats, gràfics i regles sobre el disseny i desenvolupament del site.</p>
+
+
+
+<h3 class="sg__h3">Buttons</h3>
+<p>Boto link</p>
+{{#each buttons.txt__boto-a}}
+{{> at__boto-a}}
+{{/each}}
+<p>Boto link desactivat</p>
+{{#each buttons.txt__boto-a_desactivat}}
+{{> at__boto-a_desactivat}}
+{{/each}}
+
+
+

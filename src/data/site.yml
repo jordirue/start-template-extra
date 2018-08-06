@@ -1,0 +1,8 @@
+#
+# Text general del site y estils
+#
+
+txt__site:
+  -
+    site__name: start-template-extra
+    site__description: Project Initial template with styleguide

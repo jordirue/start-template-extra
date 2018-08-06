@@ -1,0 +1,33 @@
+/*
+  Styles
+*/
+
+
+/*** Variables ***/
+
+
+/*** Utils ***/
+@import "utils/_mixins.scss";
+
+
+/*** Vendors ***/
+/* Reset / https://jonathantneal.github.io/sanitize.css */
+@import "../../../node_modules/sanitize.css/sanitize.css";
+
+
+/*** Fonts ***/
+
+
+/*** Base ***/
+.class {
+    background-color: #eee;
+}
+@import "commons/_buttons.scss";
+
+/*** Header and footer ***/
+
+
+/*** Modules ***/
+
+
+/*** IE 11 ***/

@@ -1,0 +1,19 @@
+/*
+  Mixins
+*/
+
+
+/*** Boto ***/
+@mixin mix__button {
+  min-height: 42px;
+  padding: 0 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 52px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .5s;
+  display: inline-block;
+  appearance: none;
+}
